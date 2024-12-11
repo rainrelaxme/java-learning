@@ -1,4 +1,4 @@
-package com.itheima.define;
+package com.itheima.learn;
 
 public class MethodDemo1 {
     public static void main(String[] args) {

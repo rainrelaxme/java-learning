@@ -1,4 +1,4 @@
-package com.itheima.define;
+package com.itheima.learn;
 
 // java学习案例，比较两个数组是否完全相等
 public class MethodTest3 {

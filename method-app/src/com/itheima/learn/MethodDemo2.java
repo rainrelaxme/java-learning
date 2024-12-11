@@ -1,4 +1,4 @@
-package com.itheima.define;
+package com.itheima.learn;
 
 // 理解参数传递
 public class MethodDemo2 {
