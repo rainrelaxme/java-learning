@@ -1,4 +1,4 @@
-package com.itheima.test;
+package com.itheima.test.ex1_airplanePrice;
 
 import java.util.Scanner;
 

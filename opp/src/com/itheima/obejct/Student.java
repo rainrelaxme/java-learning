@@ -48,10 +48,6 @@ public class Student {
         }
     }
 
-    private double score;   // 隐藏
-}
-
-class Car {
     /*
     一、访问修饰符：修饰符Private和public,
     public：表示公共的，可以在任何地方访问。
@@ -78,9 +74,23 @@ class Car {
 
     4.synchronized修饰符用于实现多线程同步，保证同一时间只有一个线程可以访问被修饰的代码块或方法。
      */
+    // 封装的示例
+    private double score;   // 隐藏
 
+    // 通过下面公开的方法调用内部隐藏的数据，同时一个设置变量，一个获取变量
+    public void setScore(double score) {
+        if (score >=0 && score <= 100){
+            this.score = score;
+        }else {
+            System.out.println("The score is invalid.");
+        }
+    }
+    public double getScore() {
+        return score;
+    }
 }
 
+// 可以有多个类
 class Phone {
 
 }
