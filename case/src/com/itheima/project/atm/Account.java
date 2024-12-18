@@ -3,9 +3,9 @@ package com.itheima.project.atm;
 public class Account {
     // 参数
 
+    private int accountID;
     private String name;
     private String sex;
-    private int accountID;
     private String accountCode;
     private String password;
     private double money;
@@ -29,7 +29,7 @@ public class Account {
     // generator set$get
 
     public String getName() {
-        return name;
+        return name + (sex.equals("男") ? "先生":"女士");
     }
 
     public void setName(String name) {
@@ -41,26 +41,17 @@ public class Account {
     }
 
     public void setSex(String sex) {
-        if (sex.equals("男") || sex.equals("女")) {
             this.sex = sex;
-        }else {
-            System.out.println("输入错误，请重新输入");
-        }
     }
 
     public int getAccountID() {
         return accountID;
     }
 
-    public void setAccountID(toString(int accountID)) {
-        if (accountID.length() <=10){
-            this.accountID = accountID;
-        }else {
-            System.out.println("错误的账户");
-        }
-    }
+    public void setAccountID(int accountID) {
 
-    private CharSequence toString(int accountID) {
+            this.accountID = accountID;
+
     }
 
     public String getAccountCode() {
