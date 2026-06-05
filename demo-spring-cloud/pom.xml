@@ -12,8 +12,8 @@
     <groupId>com.pocket</groupId>
     <artifactId>demo-spring-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>demo</description>
+    <name>demo-spring-cloud</name>
+    <description>demo-spring-cloud</description>
     <url/>
     <licenses>
         <license/>
